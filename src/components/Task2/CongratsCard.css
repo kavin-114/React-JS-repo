@@ -1,0 +1,16 @@
+
+.congrats-main{
+    background-image:url("./congrats-card-bg.png") ;
+    background-size: cover;
+}
+.card-box{
+    position: relative;
+    top:5%;
+    left: 15%;
+    background-color: rgba(7, 255, 255, 0.718);
+    width: 70%;
+    padding: 2rem;
+}
+.head{
+    padding-top: 2rem;
+}
