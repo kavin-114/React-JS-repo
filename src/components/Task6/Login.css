@@ -1,0 +1,18 @@
+.login-main{
+    background-image: linear-gradient(to right, rgb(123, 0, 255) , rgba(255, 0, 247, 0.941));
+}
+
+.img-frame{
+    width: 75%;
+    height: 55%;
+    border-radius: 100%;
+    background-image: url('./imgframe.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+@media (max-width: 800px){
+    .img-frame{
+        width:75%;
+        height: 300%;
+    }
+}

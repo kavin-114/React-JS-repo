@@ -11,30 +11,30 @@ export function MenuBar() {
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
                         <ul class="navbar-nav">
-                            <Link to={"/"}><li class="nav-item">
+                            <Link to={"/"} className="text-decoration-none"><li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Hello World !!</a>
                             </li></Link>
-                            <Link to={"/task2"}>
+                            <Link to={"/task2"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Congrats Card</a>
                                 </li>
                             </Link>
-                            <Link to={"/task3"}>
+                            <Link to={"/task3"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Super Over</a>
                                 </li>
                             </Link>
-                            <Link to={"/task4"}>
+                            <Link to={"/task4"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Social Button</a>
                                 </li>
                             </Link>
-                            <Link to={"/task5"}>
+                            <Link to={"/task5"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Notifications</a>
                                 </li>
                             </Link>
-                            <Link to={"/task6"}>
+                            <Link to={"/task6"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Login</a>
                                 </li>
