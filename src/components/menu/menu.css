@@ -1,3 +1,7 @@
 .menu-bar{
     position:fixed;
 }
+.menu-nav li :hover{
+    color: brown;
+    background-color: rgb(255, 162, 48) !;
+}

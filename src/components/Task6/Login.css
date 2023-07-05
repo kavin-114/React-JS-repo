@@ -3,7 +3,7 @@
 }
 
 .img-frame{
-    width: 75%;
+    width: 65%;
     height: 55%;
     border-radius: 100%;
     background-image: url('./imgframe.jpg');
@@ -12,7 +12,7 @@
 }
 @media (max-width: 800px){
     .img-frame{
-        width:75%;
-        height: 300%;
+        width:55%;
+        height: 100%;
     }
 }

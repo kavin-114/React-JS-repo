@@ -10,6 +10,7 @@ import { MenuBar } from './components/menu/menu';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Notification from './components/Task5/Notification';
 import Login from './components/Task6/Login';
+import TechnologyCard from './components/Task7/TechnologyCard';
 
 function App() {
   return (
@@ -39,6 +40,10 @@ function App() {
           <Route
             path='/task6'
             element={[<MenuBar />, <Login/>]}
+          />
+           <Route
+            path='/task7'
+            element={[<MenuBar />, <TechnologyCard/>]}
           />
         </Routes>
       </BrowserRouter>

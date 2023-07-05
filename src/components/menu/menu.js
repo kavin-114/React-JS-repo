@@ -10,7 +10,7 @@ export function MenuBar() {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav menu-nav">
                             <Link to={"/"} className="text-decoration-none"><li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="#">Hello World !!</a>
                             </li></Link>
@@ -37,6 +37,11 @@ export function MenuBar() {
                             <Link to={"/task6"} className="text-decoration-none">
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Login</a>
+                                </li>
+                            </Link>
+                            <Link to={"/task7"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Technology Cards</a>
                                 </li>
                             </Link>
                         </ul>
