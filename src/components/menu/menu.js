@@ -44,6 +44,31 @@ export function MenuBar() {
                                     <a class="nav-link" href="#">Technology Cards</a>
                                 </li>
                             </Link>
+                            <Link to={"/task8"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Hooks Assignment</a>
+                                </li>
+                            </Link>
+                            <Link to={"/task9"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Fruits Counter</a>
+                                </li>
+                            </Link>
+                            <Link to={"/task10"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Feedback</a>
+                                </li>
+                            </Link>
+                            <Link to={"/datefunction"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Datefunction</a>
+                                </li>
+                            </Link>
+                            <Link to={"/products"} className="text-decoration-none">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Products</a>
+                                </li>
+                            </Link>
                         </ul>
                     </div>
                 </div>

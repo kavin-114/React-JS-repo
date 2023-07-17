@@ -1,0 +1,18 @@
+[
+    {
+        "first_name":"Praveen",
+        "last_name":"Raj",
+        "role":"Full Stack"
+    },
+    {
+        "first_name":"Mouni",
+        "last_name":"P R",
+        "role":"Data Analyst"
+    },
+    {
+        "first_name":"John",
+        "last_name":"Rekhas",
+        "role":"DevOps"
+    }
+    
+]

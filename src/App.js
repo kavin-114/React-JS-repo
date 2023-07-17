@@ -11,6 +11,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Notification from './components/Task5/Notification';
 import Login from './components/Task6/Login';
 import TechnologyCard from './components/Task7/TechnologyCard';
+import UseStateTask from './components/useStateTask/useStateTask';
+import { FruitsCounter } from './components/FruitsCounter/FruitsCounter';
+import { Feedback } from './components/FeedbackApp/FeedbackApp';
+import { Thankyou } from './components/FeedbackApp/Thankyou';
+import Products from './components/Fakestore API/Products';
+import ProductDetails from './components/Fakestore API/ProductDetails';
+import DateFunction from './components/Datefunction/Datefunction';
 
 function App() {
   return (
@@ -44,6 +51,34 @@ function App() {
            <Route
             path='/task7'
             element={[<MenuBar />, <TechnologyCard/>]}
+          />
+           <Route
+            path='/task8'
+            element={[<MenuBar />, <UseStateTask/>]}
+          />
+          <Route
+            path='/task9'
+            element={[<MenuBar />, <FruitsCounter/>]}
+          />
+          <Route
+            path='/task10'
+            element={[<MenuBar />, <Feedback/>]}
+          />
+          <Route
+            path='/thankyou'
+            element={[<MenuBar />, <Thankyou/>]}
+          />
+          <Route
+            path='/products'
+            element={[<MenuBar />, <Products/>]}
+          />
+           <Route
+            path='/details/:id'
+            element={[<MenuBar />, <ProductDetails/>]}
+          />
+           <Route
+            path='/datefunction'
+            element={[<MenuBar />, <DateFunction/>]}
           />
         </Routes>
       </BrowserRouter>
